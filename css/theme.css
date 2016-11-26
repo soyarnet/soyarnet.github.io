@@ -82,9 +82,9 @@ body {
   background: #f9fafb;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-size: 14px;
+  font-size: 18px;
   line-height: 22px;
-  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Arimo', sans-serif;
   color: #666;
 }
 body.boxed-layout,
@@ -418,11 +418,11 @@ span.title {
 }
 @media all and (max-width: 767px) {
   p.lead {
-    font-size: 13px;
+    font-size: 18px;
     line-height: 24px;
   }
   p {
-    font-size: 12px;
+    font-size: 18px;
   }
 }
 a,
