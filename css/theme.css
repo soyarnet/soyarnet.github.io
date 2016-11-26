@@ -84,7 +84,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   font-size: 18px;
   line-height: 22px;
-  font-family: 'Arimo', sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: #666;
 }
 body.boxed-layout,
@@ -273,7 +273,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: "Oswald", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans Condensed', sans-serif;
 }
 h1,
 h2,
@@ -910,7 +910,7 @@ nav.bg-dark .logo-dark {
   font-family: 'Lato', "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .menu li a {
-  font-size: 11px;
+  font-size: 16px;
   text-transform: uppercase;
   font-weight: normal;
   letter-spacing: 1px;
