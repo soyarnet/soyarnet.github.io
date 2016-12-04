@@ -1,1 +1,41 @@
 /****** PLACE YOUR CUSTOM STYLES HERE ******/
+
+nav {
+    position: relative;
+    z-index: 4;
+}
+
+.pb0, .container {
+    z-index: 4;
+}
+
+.logo-link {
+    position: relative;
+}
+
+.logo-white {
+    position: fixed;
+    margin-left:-50px;
+    left: 50%;
+    top: 30px;
+    z-index: 3;
+}
+
+.logo-white.abs {
+    position: absolute;
+    top: 85px;
+}
+
+nav.fixed.outOfSight .logo-white {
+    content: "/img/logo-white.png";
+}
+
+nav.fixed.outOfSight.scrolled .logo-white {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .pb-xs-80 {
+        padding-bottom: 155px !important;
+    }
+}
